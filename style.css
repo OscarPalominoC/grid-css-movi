@@ -136,7 +136,9 @@ body{
 }
 
 /* Contenido películas */
-
+h1{
+    font-size: 1.3em;
+}
 .contenido{
     display: grid;
     grid-template-rows: repeat(5, 250px);
@@ -244,6 +246,9 @@ body{
     }
 }
 @media screen and (max-width: 479px){
+    h1{
+        font-size: 1em;
+    }
     .header input{
         display: none;
     }
